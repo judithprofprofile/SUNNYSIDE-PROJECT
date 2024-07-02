@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Tailwind full css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="stylee.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <main class="">
+        <section class="bg-[url('./image-header.jpg')] bg-no-repeat h-[100vh] bg-contain md:bg-cover md:h-[105vh]">
+            <div class="flex justify-between pt-3">
+                <h1 class="h text-white ml-3 text-2xl font-bold ">sunnyside</h1>
+                <button>
+                    <img src="./image/hamburger.svg" class="w-10 mr-3 md:hidden" alt="">
+                </button>
+                <div class="md:flex hidden ">
+                    <ul class="flex mr-40 space-x-14 text-white mr-6 py-2">
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Projects</li>
+                    </ul>
+                    <button class="bg-white py-2 px-7 rounded-3xl font-bold mr-20"> Contact</button>
+
+                </div>
+            </div>
+
+            <section class="flex justify-center md:mt-20 mt-7 mr-8">
+                <div>
+                    <p class="md:text-3xl font-bolder text-white md:mt-10 md:ml-9 ml-9 mb-5">WE ARE CREATIVES</p>
+                    <img src="./icon-arrow-down.svg" class="w-3 md:w-10 md:ml-32 md:mt-28 ml-24" alt="">
+                </div>
+            </section>
+        </section>
+
+        <div class="mt-[-465px] md:mt-0 md:grid md:grid-cols-2 ">
+            <div class="md:hidden">
+                <img src="./image-transform.jpg" class="md:ms-auto" />
+            </div>
+
+
+            <div class="md:block md:mt-20 mt-20 md:ml-30 ml-15 md:mr-70 mr-35">
+                <h1 class="font text-6xl font-bolder ml-20 md:ml-50 mt-20">Transform your brand </h1>
+                <p class="md:ml-50 mr-30 ml-20 md:mr-80 md:font-bold font-bold md:mt-10 mt-10 md:text-gray-500 ">we are
+                    a full-service creative agency specializing in
+                    helping brands grow fast. Engage your client through
+                    complelling visuals thats do most of the marketing for you.
+                </p>
+                <h2 class="font md:mt-5 mt-5 md:text-center text-center md:mr-80 mr-80 md:text-2xl text-2xl">LEARN MORE
+                </h2>
+            </div>
+            <div class="hidden md:block">
+                <img src="./image-transform.jpg" class="w-[150vh] md:w-[105vh]" />
+            </div>
+        </div>
+
+        <div class="md:grid block md:grid-cols-2 md:ml-150 ml-150">
+            <div class="md:">
+                <img src="./image-stand-out.jpg" class="w[150vh] md:w-[105vh]" />
+            </div>
+            <div class="md:block md:mt-36 mt-36 md:ml-32 ml-32 md:mr-70 mr-60">
+                <h1 class="font-2 md:text-4xl text-4xl md:font-bolder font-bolder ml-30 md:ml-90 md:mt-10 mb-30">Stand
+                    out to the right audience</h1>
+                <p class="md:text-gray-500 font-bold">using a collaborative formular of designers, researchers,
+                    photograpers, videographers, and copywriters,
+                    we'll build and extend your brands in digital places.
+                </p>
+                <h2 class="font md:mt-20 mt-20 md:text-center text-center md:mr-60 mr-50 md:ml-30  md:text-2xl text-xl">
+                    Learn more</h2>
+            </div>
+
+        </div>
+        <section>
+
+        </section>
+
+    </main>
+    <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="relative overflow-hidden">
+            <img src="Grid1.png" class="md:object-cover w-ful h-full" />
+
+            <p class="absolute top-60 font-bold text-2xl mt-40 ml-52 mr-36 text-gray-800">Graphic Design</p">
+
+            <p class="absolute top-60 font-medium text-normal mt-60 ml-48 mr-40 mt-[-10] ">
+                Great design makes you memorable.
+                We deliver artwork that underscores your brand message and captures potential clients' attention</p>
+            </p>
+
+
+        </div>
+        <div class="relative overflow-hidden">
+            <img src="grid2.png" class="md:object-cover w-full h-full" />
+            <p class="absolute top-60 font-bold text-2xl mt-40 ml-52 text-gray-700">Photography</p>
+            <p class="absolute top-60 font-medium text-xl ml-48 mt-60 mr-40 text-gray-700">Increase your credibility by
+                getting the most stunning,
+                high-quality photos that improve your burning image.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="text-center md:mb-20">
+
+        <header class="font-bold md:mt-72 mt-20 tracking-widest text-gray-500">CLIENT TESTIMONIALS </header>
+        <div class="md:flex items-center md:h-full mt-20 md:ml-20 ml-15 md:mr-70 mr-35 md:mb-38">
+            <div class="mt-20">
+                <img src="./image-emily.jpg" class="h-20 w-20 rounded-full md:ml-52 ml-72" />
+                <p class=" md:">we put our trust in sunnyside and they delivered,
+                    making sure our needs were met and deadlines were always hit.</p>
+                <h2 class="mt-20 font-bold">Emily R.</h2>
+                <p class="text-gray-500">Marketing Director</p>
+            </div>
+
+            <div class="mt-20">
+                <img src="./image-thomas.jpg" class="h-20 w-20 rounded-full md:ml-52 ml-72" />
+                <p>Sunnyside's enthusiasm coupled with their
+                    keen interest in our brand's success made it
+                    a satisfying and enjoyable experience.</p>
+
+                <h2 class="mt-20 font-bold">Thomas S.</h2>
+
+                <p class="text-gray-500">chief operating officer</p>
+            </div>
+
+            <div class="mt-20">
+                <img src="./image-jennie.jpg" class="h-20 w-20 rounded-full md:ml-52 ml-72" />
+                <p class="md:ml-28 md:mr-28">incredible end results! our sales increased
+                    over 400% when we worked withsunnyside.
+                    Highly recommended!
+                </p>
+                <h2 class="mt-20 font-bold">Jennie F.</h2>
+                <p class="text-gray-500">business owner</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="grid grid-cols-2 md:flex md:w-[52vh]">
+        <img src="./image-gallery-milkbottles.jpg" />
+        <img src="./image-gallery-orange.jpg" />
+        <img src="./image-gallery-cone.jpg " />
+        <img src="./image-gallery-sugarcubes.jpg">
+    </div>
+
+    <footer class="w-full h-full bg-[#a7f3d0] px-20">
+        <div>
+            <h2 class="text-center pt-12 font-bold text-4xl text-gray-700">Sunnyside</h2>
+            <div class="flex justify-center pt-8">
+                <h3 class="mr-10 font-bold text-gray-700">About</h3>
+                <h3 class=" font-bold text-stone-100">Services</h3>
+                <h3 class="ml-10 font-bold text-gray-700">Project</h3>
+            </div>
+            <div class="flex justify-center pb-10 pt-20 ">
+                <img src="icon-facebook.svg" class="mr-5" />
+                <img src="icon-instagram.svg" class=mr-5 />
+                <img src="icon-twitter.svg" class="mr-5" />
+                <img src="icon-pinterest.svg" class="mr-5" />
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
